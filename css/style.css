@@ -89,7 +89,7 @@ h1, h2, p {
   border: 1px solid var(--color2);
   padding: 10px;
   height: 30%;
-  width: 30%%;
+  width: auto;
   min-width: 300px;
   min-height: 200px;
   background: var(--color5);
