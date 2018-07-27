@@ -1,14 +1,17 @@
-* {
-  margin: 0;
-  border: 0;
-  padding: 0;
+:root {
   --color1: white; /*white*/
   --color2: #011f4b; /*deep blue*/
   --color3: #03396c; /*dark blue*/
   --color4: #005b96; /*mid blue*/
-  --color5: #6497b1; /*lighter blue*/
-  --color6: #b3cde0; /*lightest blue*/
-  --color7: grey;
+  --color5: lightgrey; /#6497b1 *lighter blue*/
+  --color6: white; /#b3cde0 *lightest blue*/
+  --color7: darkgrey;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
 body {
@@ -70,6 +73,11 @@ h1, h2, p {
   margin: 20px;
   text-align: center;
   color: var(--color2);
+}
+
+span {
+  color: dimgrey;
+  /* for some reason the span does not accept variable colors? */
 }
 
 .contact-container {
